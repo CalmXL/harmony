@@ -14,6 +14,10 @@ struct BtnPage {
       // 分割线
       Divider().strokeWidth(20)
 
+      // 垂直分割线
+      Divider().vertical(true).strokeWidth(10)
+
+
       Button() {
         Row() {
           Image($r("app.media.line_viewfinder"))
